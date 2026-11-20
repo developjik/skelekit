@@ -81,7 +81,7 @@ A skeleton succeeds when its contract is explicit enough for an agent to obey bl
 - [ ] Upload 5 screenshots (`docs/screenshots/`) — 순서: landing → game title → game over → board → filter
 - [x] 데모 영상 제작 (무음+자막, 1:54 1080p) — [mp4 릴리스](https://github.com/developjik/skelekit/releases/tag/demo-video-v1), 자막 `docs/demo-subtitles.srt`
 - [ ] YouTube 업로드 후 Links에 반영 (Devpost 임베드용; 업로드 없이 mp4 직접 링크도 가능)
-- [ ] 제출 전 최종 배포 확인 (Pages 200 + about 스펙 링크 수정 반영)
+- [x] 제출 전 최종 배포 확인 — Pages 3본 200 (landing/grave-dash/oppboard) + 릴리스 mp4 200 · 2026-11-21
 - [ ] Submit 누른 뒤 이메일/대시보드에서 "Submitted" 확인
 
 ## Screenshots (docs/screenshots/)
