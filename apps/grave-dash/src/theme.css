@@ -1,0 +1,201 @@
+/* Grave Dash — Halloween night costume (overrides SkeleKit neutral tokens) */
+:root {
+  /* Colour */
+  --bg:        #0d0a1a;        /* deep purple-black sky */
+  --fg:        #f0e6d3;        /* warm bone white */
+  --accent:    #ff7700;        /* pumpkin orange */
+  --danger:    #cc2244;        /* blood red */
+  --muted:     #5a4a6a;        /* dim purple */
+
+  /* Game-specific palette (not in neutral theme) */
+  --sky:       #0d0a1a;
+  --sky-mid:   #1a1030;
+  --moon:      #fffde0;
+  --fog:       rgba(60, 40, 90, 0.35);
+  --ground:    #1a1210;
+  --grass:     #2a4a1a;
+  --ghost:     #d0e8ff;
+  --ghost-eye: #0a0820;
+  --gravestone:#3a3250;
+  --gate:      #2a2040;
+  --skull:     #fffde0;
+  --hud-bg:    rgba(13, 10, 26, 0.75);
+
+  /* Typography */
+  --font:         Georgia, 'Times New Roman', serif;
+  --font-mono:    'Courier New', Courier, monospace;
+  --font-display: Georgia, serif;
+  --font-size:    1rem;
+  --line-height:  1.5;
+
+  /* Title treatment */
+  --title-weight:  700;
+  --title-spacing: 0.08em;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius:    8px;
+  --radius-lg: 16px;
+
+  /* Spacing (4-point scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+}
+
+/* ── Base reset ───────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased;
+  touch-action: none;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ── Screen layout ─────────────────────────────────────────────── */
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── DOM screens (title, over) ─────────────────────────────────── */
+.gd-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-6);
+  width: 100%;
+  height: 100%;
+  background: var(--bg);
+  text-align: center;
+  padding: var(--space-8) var(--space-4);
+}
+
+.gd-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: var(--title-weight);
+  letter-spacing: var(--title-spacing);
+  color: var(--accent);
+  text-shadow: 0 0 24px rgba(255, 119, 0, 0.6), 0 2px 8px #000;
+  line-height: 1.1;
+}
+
+.gd-subtitle {
+  font-size: clamp(0.9rem, 2.5vw, 1.3rem);
+  color: var(--muted);
+  letter-spacing: 0.04em;
+}
+
+.gd-score-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.gd-score-label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.gd-score-value {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 700;
+  color: var(--fg);
+  font-family: var(--font-mono);
+}
+
+.gd-best-value {
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  color: var(--accent);
+  font-family: var(--font-mono);
+}
+
+.gd-cta {
+  font-size: clamp(0.85rem, 2vw, 1.1rem);
+  color: var(--fg);
+  opacity: 0.75;
+  letter-spacing: 0.06em;
+  animation: gd-pulse 2s ease-in-out infinite;
+}
+
+.gd-hint {
+  font-size: 0.8rem;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+}
+
+.gd-pause-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(13, 10, 26, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  font-family: var(--font-display);
+}
+
+.gd-pause-title {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  color: var(--fg);
+  letter-spacing: 0.1em;
+}
+
+.gd-pause-hint {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.gd-canvas-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+.gd-canvas-wrapper canvas {
+  display: block;
+  image-rendering: pixelated;
+}
+
+@keyframes gd-pulse {
+  0%, 100% { opacity: 0.75; }
+  50%       { opacity: 0.4; }
+}
