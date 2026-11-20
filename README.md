@@ -36,6 +36,15 @@ cd apps/oppboard   && npm install && npm run dev
 3. Write a spec pack (`.kiro/specs/<your-app>/{requirements,design,tasks}.md`).
 4. Let Kiro execute the tasks. Override `src/theme.css` tokens only — never `core/`.
 
+## Screenshots
+
+| Landing | Grave Dash | OppBoard |
+|---|---|---|
+| ![landing](docs/screenshots/01-landing.png) | ![game](docs/screenshots/02-grave-dash-title.png) | ![board](docs/screenshots/04-oppboard-board.png) |
+
+All shots are from the deployed apps — see [`docs/screenshots/`](docs/screenshots/).
+Submission materials: [`docs/devpost-submission.md`](docs/devpost-submission.md) · demo video script: [`docs/demo-video-script.md`](docs/demo-video-script.md).
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
