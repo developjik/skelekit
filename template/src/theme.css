@@ -1,0 +1,61 @@
+/* SkeleKit neutral theme — override every token in your app's theme.css */
+:root {
+  /* Colour */
+  --bg:        #0f0f0f;
+  --fg:        #e8e8e8;
+  --accent:    #7c6af7;
+  --danger:    #e05252;
+  --muted:     #555566;
+
+  /* Typography */
+  --font:      'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'Cascadia Code', 'Fira Mono', monospace;
+  --font-size: 1rem;
+  --line-height: 1.5;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius:    8px;
+  --radius-lg: 16px;
+
+  /* Spacing (4-point scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+}
+
+/* ── Base reset ───────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code, pre {
+  font-family: var(--font-mono);
+}
