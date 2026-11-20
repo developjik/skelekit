@@ -21,4 +21,4 @@
 ## 4. Verify
 - [D] 4.1 `npm test` green (data + dday).
 - [D] 4.2 `npm run build` smoke-open from subpath; hash filters shareable and restorable.
-- [P] 4.3 Commit `feat(oppboard): App 2 from skelekit (spec: app-oppboard)`.
+- [D] 4.3 Commit `feat(oppboard): App 2 from skelekit (spec: app-oppboard)`.
