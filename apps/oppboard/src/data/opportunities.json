@@ -1,0 +1,485 @@
+{
+  "updatedAt": "2026-11-20",
+  "items": [
+    {
+      "id": "event:wevity:111915-elice-ai-challenge",
+      "title": "과기부 × 엘리스 AI 챌린지 - 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
+      "host": "과학기술정보통신부 / 엘리스",
+      "type": "contest",
+      "url": "https://ai-challenge.elice.page/home/main",
+      "prize": "—",
+      "deadline": "2026-11-13",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:111567-daegu-climate-publicdata-ai",
+      "title": "2026 대구광역시 기후·환경·탄소중립 공공 데이터 AI 활용대회",
+      "host": "대구광역시 탄소중립지원센터",
+      "type": "contest",
+      "url": "https://dcnc.or.kr/bbs/board.php?bo_table=notice&wr_id=193",
+      "prize": "대상 130만원 (아이디어 제안·데이터 분석 시각화 2부문)",
+      "deadline": "2026-11-20",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:111847-socialsecurity-ai-idea-contest",
+      "title": "2026 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
+      "host": "한국사회보장정보원, 대구가톨릭대학교 (후원: 보건복지부)",
+      "type": "contest",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111847",
+      "prize": "16팀 시상 (대상 보건복지부 장관상 500만원)",
+      "deadline": "2026-11-20",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:112029-gender-equality-ai",
+      "title": "2026 성평등 AI 벤치마크 챌린지",
+      "host": "여성가족부",
+      "type": "contest",
+      "url": "https://www.mogefdatacontest.co.kr/index.jsp",
+      "prize": "순위권 상금 지급 (상장 없음)",
+      "deadline": "2026-11-20",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:111490-jecheon-ai-video",
+      "title": "2026 시민 AI영상 공모전",
+      "host": "제천문화관광재단",
+      "type": "contest",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111490",
+      "prize": "—",
+      "deadline": "2026-11-20",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:111924-jeju-ai-literacy",
+      "title": "2026 제주 청소년 AI 리터러시 영상 공모전",
+      "host": "제주콘텐츠진흥원",
+      "type": "contest",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111924",
+      "prize": "—",
+      "deadline": "2026-11-20",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:112049-ai-master-tips-s4",
+      "title": "AI 달인의 꿀팁 챌린지 시즌4 (전국민 AI 경진대회)",
+      "host": "aichallenge4all.or.kr",
+      "type": "contest",
+      "url": "https://aichallenge4all.or.kr/competitions/master100_s4",
+      "prize": "다양한 혜택 (상금 미기재)",
+      "deadline": "2026-11-20",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:111726-yongsan-ai-smartcity",
+      "title": "용산국제업무지구 AI 스마트도시 아이디어 공모",
+      "host": "서울특별시",
+      "type": "contest",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111726",
+      "prize": "대상 300만원 외 (서울특별시장상)",
+      "deadline": "2026-11-20",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0035",
+      "title": "Dakar Bitcoin Hack by BTrust",
+      "host": "Dakar Bitcoin Days / BTrust",
+      "type": "hackathon",
+      "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
+      "prize": "$900",
+      "deadline": "2026-11-20",
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "id": "event:ko-0035",
+      "title": "제주 AI·빅데이터 활용 AI Agent 개발 챌린지",
+      "host": "제주테크노파크 (제주빅데이터센터·제주데이터허브)",
+      "type": "hackathon",
+      "url": "https://daker.ai/public/hackathons/jeju-ai-bigdata-agent-challenge",
+      "prize": "총 500만원",
+      "deadline": "2026-11-20",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "posting:jobkorea:50213617",
+      "title": "PI오퍼레이션 컨설턴트",
+      "host": "오로라월드",
+      "type": "job",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50213617",
+      "prize": "AI 사용: 필수",
+      "deadline": "2026-11-20",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0023",
+      "title": "STEM2Connect AI Hackathon",
+      "host": "STEM2Connect",
+      "type": "hackathon",
+      "url": "https://stem2connect-online-hackathon.devpost.com/",
+      "prize": "—",
+      "deadline": "2026-11-21",
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "id": "posting:jumpit:55361658",
+      "title": "풀스택 제품 개발자(3년 이상)",
+      "host": "데이터드리븐",
+      "type": "job",
+      "url": "https://jumpit.saramin.co.kr/position/55361658",
+      "prize": "AI 사용: 금지",
+      "deadline": "2026-11-21",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "posting:jobkorea:50222686",
+      "title": "AI활용 전문가 (사업기획·분석·자동화)",
+      "host": "에스에스알",
+      "type": "job",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50222686",
+      "prize": "AI 사용: 필수",
+      "deadline": "2026-11-21",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:ko-0005",
+      "title": "2026 조달청 AI 게임·콘텐츠 공모전",
+      "host": "조달청",
+      "type": "contest",
+      "url": "https://blog.naver.com/ppspr/224439199284",
+      "prize": "총 상금 1천만 원 이하(1등 200만 원)",
+      "deadline": "2026-11-22",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:111804-namux-ai-shortform",
+      "title": "나무엑스 AI 숏폼 공모전",
+      "host": "SK인텔릭스(주)",
+      "type": "contest",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111804",
+      "prize": "1천만원 이하(1등 300만원)",
+      "deadline": "2026-11-22",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:ko-0037",
+      "title": "디어비 글로벌 런칭 공모전 (AI 캐릭터·테마 창작)",
+      "host": "DEARBE Corp. (디어비)",
+      "type": "contest",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=112313",
+      "prize": "총 1,500만원 (대상 500만·우수 3×200·장려 4×100)",
+      "deadline": "2026-11-22",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:112122-busan-donggu-ai-shorts",
+      "title": "부산 동구 AI 숏폼 영상 공모전",
+      "host": "부산동구청",
+      "type": "contest",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=112122",
+      "prize": "총상금 1,000만원 (대상 150만원)",
+      "deadline": "2026-11-22",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "posting:jobkorea:50228417",
+      "title": "[경력] AI Research Scientist",
+      "host": "씨어스",
+      "type": "job",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50228417",
+      "prize": "AI 사용: 미언급",
+      "deadline": "2026-11-22",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "posting:jobkorea:50228434",
+      "title": "[경력] 플랫폼 엔지니어",
+      "host": "씨어스",
+      "type": "job",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50228434",
+      "prize": "AI 사용: 필수",
+      "deadline": "2026-11-22",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:112022-gyeongsan-ai-media",
+      "title": "2026 경산시 AI 미디어 콘텐츠 공모전",
+      "host": "경산시",
+      "type": "contest",
+      "url": "https://aiart.gbgs.art/",
+      "prize": "—",
+      "deadline": "2026-11-23",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:111819-kicet-ai-video",
+      "title": "2026 한국세라믹기술원 AI 영상 공모전 (세라믹이 사라진 세상)",
+      "host": "한국세라믹기술원",
+      "type": "contest",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111819",
+      "prize": "1천만원 이하(1등 300만원)",
+      "deadline": "2026-11-23",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:wevity:112285-sejongcyber-ai-bulssi",
+      "title": "세종사이버대학교 전국민 AI 공모전 (AI 불씨)",
+      "host": "세종사이버대학교",
+      "type": "contest",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=112285",
+      "prize": "총 상금 1천만원 이하(위비티 표기)",
+      "deadline": "2026-11-23",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0033",
+      "title": "HackWithAditya",
+      "host": "Aditya University",
+      "type": "hackathon",
+      "url": "https://hackwithaditya.devpost.com/",
+      "prize": "—",
+      "deadline": "2026-11-25",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0028",
+      "title": "Hackathon Agéntico SoftwareChido 2026B",
+      "host": "SoftwareChido",
+      "type": "hackathon",
+      "url": "https://hackathon-agentico-2026b.devpost.com/",
+      "prize": "—",
+      "deadline": "2026-11-25",
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "id": "posting:jobkorea:50062816",
+      "title": "FP&A Manager",
+      "host": "넥스트증권",
+      "type": "job",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50062816",
+      "prize": "AI 사용: 허용",
+      "deadline": "2026-11-27",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:ko-0038",
+      "title": "INNO-CODER AI HACKATHON - 일상 속 아이디어를 AI로 웹·앱 서비스로",
+      "host": "(재)운당나눔재단 × (재)울산창조경제혁신센터 (운영 팀모노리스)",
+      "type": "hackathon",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=112474",
+      "prize": "총 200만원 (대상 80만·최우수 50만·우수 30만·장려 2×20만)",
+      "deadline": "2026-11-29",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "posting:jobkorea:50083974",
+      "title": "AI엔지니어 모집 - 게임 에이전트(VLM)/음성AI (TTS, ASR)",
+      "host": "넷마블",
+      "type": "job",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50083974",
+      "prize": "AI 사용: 미언급",
+      "deadline": "2026-11-29",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "posting:jobkorea:50328375",
+      "title": "웹툰 PD",
+      "host": "문피아(MUNPIA)",
+      "type": "job",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50328375",
+      "prize": "AI 사용: 미언급",
+      "deadline": "2026-11-29",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0049",
+      "title": "#BuildHybridAI 2026",
+      "host": "Firebase (Google)",
+      "type": "hackathon",
+      "url": "https://firebasehybridaihackathon.devpost.com/",
+      "prize": "$30,000",
+      "deadline": "2026-11-30",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "posting:jobkorea:50384587",
+      "title": "노아에이티에스 2027년 공채 16기 신입사원 채용(개발자, 컨설턴트)",
+      "host": "노아에이티에스(Noah ATS)",
+      "type": "job",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50394279",
+      "prize": "AI 사용: 필수",
+      "deadline": "2026-11-30",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0044",
+      "title": "Anna AI App Builder Program",
+      "host": "Anna AI (DoraHacks)",
+      "type": "hackathon",
+      "url": "https://dorahacks.io/hackathon/2349",
+      "prize": "$6,000",
+      "deadline": "2026-12-01",
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "id": "event:global-0011",
+      "title": "Kiroween 2026",
+      "host": "Kiro (AWS)",
+      "type": "hackathon",
+      "url": "https://kiroween.devpost.com/",
+      "prize": "총 $100,000 현금 (상세 규정·배분은 10/30 공개 예정)",
+      "deadline": "2026-12-04",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0045",
+      "title": "Deck the Pixels",
+      "host": "Adobe (Nano Banana · Adobe Photoshop)",
+      "type": "hackathon",
+      "url": "https://deckthepixels.devpost.com/",
+      "prize": "$25,000",
+      "deadline": "2026-12-07",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0029",
+      "title": "Learn AR with SPECS",
+      "host": "Devpost (SPECS)",
+      "type": "hackathon",
+      "url": "https://learn-specs.devpost.com/",
+      "prize": "$2,500",
+      "deadline": "2026-12-07",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0047",
+      "title": "SLAY HACKS",
+      "host": "cite & slayy",
+      "type": "hackathon",
+      "url": "https://slayy-hacks.devpost.com/",
+      "prize": "$4,500",
+      "deadline": "2026-12-07",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "posting:jobkorea:50317329",
+      "title": "디자인팀 과장급",
+      "host": "룩캐스트(LOOKAST)",
+      "type": "job",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50317329",
+      "prize": "AI 사용: 미언급",
+      "deadline": "2026-12-07",
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "id": "event:global-0050",
+      "title": "Reddit's Game of the Day Hackathon",
+      "host": "Reddit",
+      "type": "hackathon",
+      "url": "https://redditgameofday2026.devpost.com/",
+      "prize": "$35,000 in cash",
+      "deadline": "2026-12-08",
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "id": "event:global-0042",
+      "title": "AI OpenBuild: Build anything with AI",
+      "host": "AI OpenBuild (Devpost)",
+      "type": "hackathon",
+      "url": "https://ai-openbuild.devpost.com/",
+      "prize": "$150 in cash",
+      "deadline": "2026-12-11",
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "id": "event:global-0041",
+      "title": "AWS MSP AI Hackathon",
+      "host": "AWS",
+      "type": "hackathon",
+      "url": "https://aws-agentic-msp.devpost.com/",
+      "prize": "$64,000 (총상금)",
+      "deadline": "2026-12-11",
+      "regions": [
+        "KR"
+      ]
+    }
+  ]
+}

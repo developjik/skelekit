@@ -1,0 +1,114 @@
+/* OppBoard theme — dark slate board, mono numerals for D-days */
+:root {
+  /* Colour */
+  --bg:          #0d1117;
+  --bg-surface:  #161b22;
+  --bg-hover:    #1c2128;
+  --fg:          #c9d1d9;
+  --fg-muted:    #8b949e;
+  --border:      #30363d;
+  --accent:      #58a6ff;
+  --accent-dim:  #1f4068;
+
+  /* D-day chip colours */
+  --dday-calm:   #1a7f37;   /* D≥7: green */
+  --dday-warn:   #9a6700;   /* 3≤D<7: yellow-amber */
+  --dday-danger: #b91c1c;   /* D<3: red */
+  --dday-closed: #374151;   /* past: muted grey */
+
+  --dday-calm-fg:   #3fb950;
+  --dday-warn-fg:   #d29922;
+  --dday-danger-fg: #f87171;
+  --dday-closed-fg: #6b7280;
+
+  /* Type chip colours */
+  --type-hackathon: #2d4a7a;
+  --type-hackathon-fg: #79b8ff;
+  --type-contest:   #3a2d7a;
+  --type-contest-fg: #b48eff;
+  --type-job:       #1a4a3a;
+  --type-job-fg:    #56d364;
+
+  /* Existing tokens (keep base reset working) */
+  --danger:    #f87171;
+  --muted:     #8b949e;
+
+  /* Typography */
+  --font:      -apple-system, 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'Cascadia Code', 'JetBrains Mono', 'Fira Mono', ui-monospace, monospace;
+  --font-size: 14px;
+  --line-height: 1.5;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius:    6px;
+  --radius-lg: 12px;
+
+  /* Spacing (4-point scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+}
+
+/* ── Base reset ───────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code, pre {
+  font-family: var(--font-mono);
+}
+
+/* D-day numerals always monospace */
+.dday-chip {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+.dday--calm   { background: var(--dday-calm);   color: var(--dday-calm-fg); }
+.dday--warn   { background: var(--dday-warn);   color: var(--dday-warn-fg); }
+.dday--danger { background: var(--dday-danger); color: var(--dday-danger-fg); }
+.dday--closed { background: var(--dday-closed); color: var(--dday-closed-fg); }
+
+/* Type chips */
+.type-chip {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.type--hackathon { background: var(--type-hackathon); color: var(--type-hackathon-fg); }
+.type--contest   { background: var(--type-contest);   color: var(--type-contest-fg); }
+.type--job       { background: var(--type-job);       color: var(--type-job-fg); }
