@@ -11,7 +11,7 @@
 | Demo (landing) | https://developjik.github.io/skelekit/ |
 | Demo — Grave Dash | https://developjik.github.io/skelekit/grave-dash/ |
 | Demo — OppBoard | https://developjik.github.io/skelekit/oppboard/ |
-| Video | `[ ] upload 후 링크 — 대본: docs/demo-video-script.md` |
+| Video | `[x] 완성 — 무음+자막 1:54 · mp4: [Release demo-video-v1](https://github.com/developjik/skelekit/releases/tag/demo-video-v1) · 자막: docs/demo-subtitles.srt → YouTube 업로드만 남음 |
 
 ## Title / Tagline
 
@@ -79,7 +79,8 @@ A skeleton succeeds when its contract is explicit enough for an agent to obey bl
 - [ ] Team: solo (본인 계정) — 팀원 추가 필요 없음
 - [ ] Opt-ins: "Additional prize categories" 해당 시만 체크
 - [ ] Upload 5 screenshots (`docs/screenshots/`) — 순서: landing → game title → game over → board → filter
-- [ ] Video 업로드 후 Links에 반영 (2:00–2:30 권장, 대본 `docs/demo-video-script.md`)
+- [x] 데모 영상 제작 (무음+자막, 1:54 1080p) — [mp4 릴리스](https://github.com/developjik/skelekit/releases/tag/demo-video-v1), 자막 `docs/demo-subtitles.srt`
+- [ ] YouTube 업로드 후 Links에 반영 (Devpost 임베드용; 업로드 없이 mp4 직접 링크도 가능)
 - [ ] 제출 전 최종 배포 확인 (Pages 200 + about 스펙 링크 수정 반영)
 - [ ] Submit 누른 뒤 이메일/대시보드에서 "Submitted" 확인
 
