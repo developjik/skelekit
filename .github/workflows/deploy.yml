@@ -87,7 +87,7 @@ jobs:
           cp -r apps/oppboard/dist _site/oppboard
           ls -R _site | head -20
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
