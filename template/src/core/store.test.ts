@@ -108,3 +108,5 @@ describe('createStore', () => {
     assert.equal(raw, '0');
   });
 });
+
+it('DEV41 deliberate failing test probe', () => { throw new Error('expected negative CI probe'); });
